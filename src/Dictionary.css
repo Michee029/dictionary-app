@@ -1,26 +1,32 @@
-.Dictionary h1 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 20px;
+.Dictionary {
+  display: block;
+  margin: 0 auto;
+  padding: 40px 40px 28px 40px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #91b2c2;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
 }
 
-.Dictionary section {
-  background: white;
-  padding: 30px;
-  border-radius: 6px;
-  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
-  margin: 20px 0;
+.Dictionary h4 {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  color: #91b2c2;
+}
+
+.Dictionary .ps-3 {
+  color: #91b2c2;
 }
 
 .Dictionary input {
-  width: 100%;
-  border-radius: 6px;
-  padding: 6px 10px;
-  color: #333;
-  border: 1px solid #ddd;
+  border-radius: 4px;
+  border: 1px solid #91b2c2;
 }
 
-.Dictionary .hint {
-  font-size: 11px;
-  margin-top: 5px;
+.Dictionary .Hint {
+  padding-top: 10px;
+  font-size: 12px;
+  color: #91b2c2;
 }

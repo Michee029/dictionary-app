@@ -1,4 +1,3 @@
-import logo from "./logo.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -7,13 +6,21 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
+          <strong>Dictionary</strong>
         </header>
         <main>
-          <Dictionary defaultKeyword="sunset" />
+          <Dictionary />
         </main>
-        <footer className="App-footer">
-          <small>Coded by SheCodes</small>
+        <footer>
+          This React App is coded by Michelle Soriano and is{" "}
+          <a
+            href="https://github.com/Michee029/dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-Sourced
+          </a>{" "}
+          on GitHub
         </footer>
       </div>
     </div>
