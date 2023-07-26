@@ -13,3 +13,6 @@
   margin: 10px auto;
   border-radius: 4px;
 }
+.Photos img:hover {
+  transform: scale(1.1);
+}

@@ -12,7 +12,7 @@ export default function App() {
           <Dictionary />
         </main>
         <footer>
-          This React App is coded by Michelle Soriano and is{" "}
+          This Project was coded by Michelle Soriano and is{" "}
           <a
             href="https://github.com/Michee029/dictionary-app"
             target="_blank"
