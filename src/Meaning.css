@@ -1,22 +1,11 @@
-.Meaning {
-  display: block;
-  margin: 0 auto;
-  padding: 40px 40px 28px 40px;
-  background-color: white;
-  border-radius: 4px;
-  border: 1px solid #91b2c2;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
-  max-width: 700px;
-}
-
 .Meaning h3 {
-  font-size: 25px;
+  font-size: 24px;
+  line-height: 1.5;
   font-weight: bold;
 }
 
 .Meaning .example {
-  font-size: 14px;
-  color: #91b2c2;
+  color: #70757a;
   font-style: italic;
-  line-height: 2;
+  margin-top: 10px;
 }
