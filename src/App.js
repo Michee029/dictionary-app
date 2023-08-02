@@ -21,6 +21,14 @@ function App() {
               rel="noreferrer"
             >
               open-sourced on GitHub
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://loquacious-stardust-9b824a.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              hosted on Netlify
             </a>
           </small>
         </footer>
