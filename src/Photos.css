@@ -2,3 +2,8 @@
   border-radius: 4px;
   margin: 10px 0;
 }
+
+.Photos .img-fluid:hover {
+  filter: contrast(80%);
+  transform: scale(1.1);
+}
